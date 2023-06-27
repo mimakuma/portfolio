@@ -1,0 +1,9 @@
+body {
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+h1, h2, .skills-list {
+	font-family: 'Chakra Petch', sans-serif;
+	font-style: italic;
+	font-weight: bold;
+}
