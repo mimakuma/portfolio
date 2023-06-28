@@ -34,11 +34,11 @@ body, ul {
 
 	li.empty {
 		width: 60px;
-		border-top: 2px solid black;
-		top: -10px;
+		border-top: 1px solid black;
+		top: -5px;
 		position: relative;
 	}
-
+ 
 /*header*/
 
 	header {
