@@ -32,6 +32,13 @@ body, ul {
 		padding: 15px;
 	}
 
+	li.empty {
+		width: 60px;
+		border-top: 2px solid black;
+		top: -10px;
+		position: relative;
+	}
+
 /*header*/
 
 	header {
@@ -118,8 +125,11 @@ figcaption {
 	}
 
 	.smaller {
-		max-width: 75%;
+		max-width: 70%;
+		padding-block: 15px;
 	}
+
+	.
 
 /*footer*/
 	footer {
