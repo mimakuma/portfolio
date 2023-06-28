@@ -1,6 +1,7 @@
 body {
 	font-family: 'Chakra Petch', sans-serif;
 	font-size: 17px;
+	background-color: #f3d4e6;
 }
 
 body, ul {
@@ -9,43 +10,55 @@ body, ul {
 }
 
 /*navigation*/
-nav {
-	background-color: pink;
-	position: fixed;
-	z-index: 1;
-	width: 100%;
-	font-size: 13px;
-}
+	nav {
+		background-color: #e2a9ca;
+		position: fixed;
+		z-index: 1;
+		width: 100%;
+		font-size: 13px;
+	}
 
-nav ul li {
-	display: inline-block;
-	margin: 0 12px;
-	padding: 0;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
+	nav ul li {
+		display: inline-block;
+		margin: 0 12px;
+		padding: 0;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
 
-nav ul {
-	margin: 0 auto;
-	text-align: center;
-	padding: 15px;
-}
+	nav ul {
+		margin: 0 auto;
+		text-align: center;
+		padding: 15px;
+	}
 
-header {
-	top: 70px;
-	position: relative;
-	margin-bottom: 90px;
-}
+/*header*/
 
-h1 {
-	font-size: 60px;
-	line-height: 130%;
-}
+	header {
+		top: 47px;
+		position: relative;
+		margin-bottom: 60px;
+		background-image: url('../img/my_background.png');
+		background-repeat: no-repeat;
+	}
 
-ul li {
-	list-style: none;
-	margin: 10px 0px;
-}
+	h1 {
+		font-size: 68px;
+		line-height: 159%;
+		-webkit-text-stroke: 0.5px #d15c93;
+		color: whitesmoke;
+	}
+
+	ul li {
+		list-style: none;
+		margin: 8px 0px;
+	}
+
+	.intro-img {
+		box-shadow: 3px 4px 40px rgba(255, 255, 255,0.5);
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
 
 h1, h2, .skills-list {
 	font-family: 'Chakra Petch', sans-serif;
@@ -53,24 +66,66 @@ h1, h2, .skills-list {
 	font-weight: bold;
 }
 
+h2 {
+	font-size: 35px;
+	line-height: 130%;
+	font-weight: normal;
+}
+
 img {
 	max-width: 100%;
 }
 
-footer {
-	text-align: center;
-}
-
-.button{
-	border: 1px solid black;
-	text-decoration: none;
-	color: hotpink;
-	padding: 8px 15px;
-	display: inline-block;
-	border-radius: 15px;
+p{
+	line-height: 150%;
 }
 
 figcaption {
 	font-size: 10px;
 	text-align: right;
 }
+
+/*classes*/
+	.button{
+		border: 1px solid black;
+		text-decoration: none;
+		color: #d15c93;
+		padding: 8px 15px;
+		display: inline-block;
+		border-radius: 15px;
+	}
+	.skills-list{
+		font-size: 45px;
+		text-align: center;
+		line-height: 130%;
+		margin-bottom: 50px;
+		color: whitesmoke;
+		-webkit-text-stroke: 0.5px #d15c93;
+	}
+
+	.italic {
+		font-style: italic;
+		color: #d15c93;
+		font-size: 20px;
+	}
+
+	.project {
+		margin: 50px 0px;
+	}
+
+	.pink {
+		background-color: #e2a9ca
+	}
+
+	.smaller {
+		max-width: 75%;
+	}
+
+/*footer*/
+	footer {
+		text-align: center;
+	}
+
+
+
+
