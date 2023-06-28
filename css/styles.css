@@ -34,11 +34,17 @@ nav ul {
 header {
 	top: 70px;
 	position: relative;
+	margin-bottom: 90px;
 }
 
 h1 {
 	font-size: 60px;
 	line-height: 130%;
+}
+
+ul li {
+	list-style: none;
+	margin: 10px 0px;
 }
 
 h1, h2, .skills-list {
@@ -53,4 +59,18 @@ img {
 
 footer {
 	text-align: center;
+}
+
+.button{
+	border: 1px solid black;
+	text-decoration: none;
+	color: hotpink;
+	padding: 8px 15px;
+	display: inline-block;
+	border-radius: 15px;
+}
+
+figcaption {
+	font-size: 10px;
+	text-align: right;
 }
