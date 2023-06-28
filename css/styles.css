@@ -1,9 +1,44 @@
 body {
 	font-family: 'Chakra Petch', sans-serif;
+	font-size: 17px;
 }
 
+body, ul {
+	margin: 0;
+	padding: 0;
+}
+
+/*navigation*/
 nav {
+	background-color: pink;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	font-size: 13px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 12px;
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+nav ul {
+	margin: 0 auto;
 	text-align: center;
+	padding: 15px;
+}
+
+header {
+	top: 70px;
+	position: relative;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 130%;
 }
 
 h1, h2, .skills-list {
