@@ -18,13 +18,14 @@
   <!-- nawigacja po stronie -->
     <nav> 
       <ul>
-        <li>o mnie</li>
+        <li><a href="#o_mnie">o mnie</a></li>
+        <li><a href="#concept_art">concept art</a></li>
         <li>modele 3d</li>
         <li>grafika komputerowa</li>
         <li>rysunek/malarstwo</li>
         <li>projektowanie mody</li>
         <li class= "empty"></li>
-        <li>kontakt</li>
+        <li><a href="#contact">kontakt</a></li>
       </ul>
     </nav>
 
@@ -39,6 +40,7 @@
             <li>wiek: 23 lata</li>
             <li>znak zodiaku: byk</li>
             <li>ulubione jedzenie: ramen, ziemniaki z masłem i koperkiem</li>
+            <li>ulubione show: Cardcaptor Sakura, Adventure Time</li>
             <li>obecnie gram w: Cultist Simulator i The Tenants</li>
             </ul>
           </div>
@@ -54,21 +56,24 @@
 
     </header>
 
-  <!-- lista nawigacyjna raz jeszcze tylko duża (ta sama co w <nav>) -->
-    <section>
+<!-- sekcje, do których odnosniki są w nawigacji -->
+    <section id="o_mnie">
       <ul class="skills-list">
-        <li>01_o mnie</li>
-        <li>02_modele 3d</li>
-        <li>03_grafika komputerowa</li>
-        <li>04_rysunek/malarstwo</li>
-        <li>05_projektowanie mody</li>
+        <li>01_Kim jest Mimo?</li>
       </ul>
+        <p class="center">Już jako małe dziecko miałxm zajawkę na rysowanie i gry komputerowe, jednak na tym nie kończyły się moje pasje. Próbowałxm bardzo wielu rzeczy, od śpiewania i grania na instrumentach, po balet i grę w teatrze. Próbując po kolei różnych rzeczy próbowałxm znaleźć "to coś" co mogłxbym robić do końca życia, bez nudy i bez wypalenia się. <br></br>
+        Byłxm w gimnazjum artystycznym SKiE (Warszawa), gdzie miałam zajęcia ze śpiewu, historii teatru, animacji i... brydża. Idąc śladem rodziców wybrałxm Liceum Filmowe w Warszawie, gdzie rozwijałxm się pod kątem kinematografii i reżyserii. Za kierunek na studiach obrałxm sobie Projektowanie Mody w MSKPU w Warszawie, jednak uderzyła w nas pandemia, a nauka szycia i konstrukcji ubrań online wydawała mi się marna. Spróbowałxm więc swoich sił w naukach humanistycznych idąc na Etnologię i Antropologię kulturową na Uniwersytecie Warszawskim. Pomimo tego, że antropologia jest piękną dziedziną, zbyt mocno tęskniłxm za codzienną twórczością. Dostałxm się na School of Form w Warszawie, ale moje zdrowie nie pozwoliło mi na uczęszczanie na zajęcia. Podczas rocznego urlopu zdrowotnego skupiłxm się na sobie i na tym czego faktycznie chcę od życia i dalszym poszerzaniu swoich umiejętności.<br></br> Pracowałam w różnych lokalach gastronomicznych, przez kilka miesięcy menadżerowałam również wegańską wersją KFC - Boczniak's. Od zawsze bardzo mocno angażuję się w to co robię, a praca w Boczniak's nauczyła mnie odpowiedzialności za innych, dzięki czemu nie straszne mi są wyzwania związane z organizacją i kierowaniem projektami.  Poza tym udzielałxm swojego głosu do mini serialu Coca-Coli, pracowałxm na recepcji w hostelu i rysowałxm na zlecenie.<br></br> Teraz bardziej niż kiedykolwiek wiem, że chcę przez swoją twórczość opowiadać historię. Jako niebinarna osoba kobieca myślę, że mogę wnieść ciekawą perspektywę do gier wideo i wnieść do niego jeszcze więcej queerowości. Chciałxbym również, aby gry były bardziej dostępne dla ludzi z wszelkimi niepełnosprawnościami i problemami. Myślę, że gry są jednym z bardziej przystępnych medium sztuki i choć wcześniej myślałxm, że jest to coś co mogę tylko konsumować, okazuję się, że jeszcze bardziej kręci mnie bycie osobą za ekranem, a nie przed nim.</p>
     </section>
 
   <!-- projects -->
   
     <!-- project 1 -->
-      <section class="project pink">
+    <section>
+      <ul class="skills-list">
+        <li>02_Projekty</li>
+      </ul>
+    </section>
+      <section id="concept_art" class="project pink">
         <div class="container">
           <div class="row">
     <!-- left column -->
@@ -115,16 +120,27 @@
           <div class="col-sm">
             <h2>@miitomono</h2>
             <p>Miitomono to moja mała marka, która narodziła się z pasji do szydełka oraz potrzeby zajęcia rąk podczas słuchania wykładów na Uniwersytecie Warszawskim. Działalnośc @miitomono rozwijam internetowo od około 1,5 roku oraz od roku jeżdżę w celach handlowych na Pyrkon (konwent fantastyki w Poznaniu) i Targi fantastyki w Warszawie.</p>
-            <a href="https://www.instagram.com/miitomono/" class="button">Instagram</a>
+            <a href="https://www.instagram.com/miitomono/" target="_blank" class="button">Instagram</a>
           </div>
         </div>
       </div>
     </section>
+<!-- kontakt -->
+    <section>
+      <ul id="contact" class="skills-list">
+        <li>03_kontakt</li>
+      </ul>
+        <h2 class="center">Z jakimi kolwiek pytaniami lub ofertami współpracy proszę o kontakt mailowy lub przez podane media społecznościowe.</h2>
+          <ul class="left_margin">
+            <li>adres mailowy: mimo.landsberg@gmail.com</li>
+            <li>instagram: <a href="https://www.instagram.com/mimakuma">@mimakuma</a></li>
+            <li>facebook: <a href="https://www.facebook.com/mia.landsberg.16/">https://www.facebook.com/mia.landsberg.16/</a></li>
+          </ul>
+    </section>
 
 <!-- footer -->
   <footer>
-    <h2>Masz pytania? Wyślij je na dres mailowy mimo.landsberg.gmail.com.</h2>
-    <p>Wszystkie grafiki na stronie internetowej, projekt oraz opracowanie strony są własnością Mimo Landsberg&copy;.</p>
+    <p>Wszystkie grafiki na stronie internetowej oraz projekt i opracowanie strony są własnością Mimo Landsberg&copy;.</p>
   </footer>
 
   </body>
