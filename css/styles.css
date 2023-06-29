@@ -73,6 +73,10 @@ a:hover {
 		margin: 8px 0px;
 	}
 
+	ul.justify {
+		margin-left: 240px;
+	}
+
 	.intro-img {
 		box-shadow: 3px 4px 40px rgba(255, 255, 255,0.5);
 		margin-top: 30px;
@@ -88,6 +92,11 @@ h1, h2, .skills-list {
 h2 {
 	font-size: 35px;
 	line-height: 130%;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 20px;
 	font-weight: normal;
 }
 
@@ -159,6 +168,15 @@ figcaption {
 
 	.left_margin {
 		margin-left: 150px;
+	}
+
+	.alling_right {
+		margin-top: 0px;
+		text-align: right;
+	}
+
+	.justify {
+		text-align: justify;
 	}
 
 /*footer*/
