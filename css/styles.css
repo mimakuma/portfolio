@@ -116,19 +116,22 @@ figcaption {
 
 /*classes*/
 	.button{
-		border: 1px solid whitesmoke;
+		border: 2px solid #d15c93;
 		text-decoration: none;
-		color: #d15c93;
+		color: #88b8e5;
+		background-color: #f3d4e6;
 		padding: 8px 15px;
 		display: inline-block;
 		border-radius: 15px;
 		transition: background 0.69s ease, color 0.69s ease, border 0.69s ease;
+		filter: drop-shadow(5px 5px #cd3c80ad);
 	}
+
 		/*	button's pseudo class*/
 		.button:hover{
 			background: #88b8e5;
 			color: whitesmoke;
-			border: 1px solid #d15c93;
+			border: 2px solid #d15c93;
 		}
 
 	.skills-list{
@@ -160,6 +163,10 @@ figcaption {
 		padding-block: 15px;
 	}
 
+	.small {
+		max-width: 90%;
+	}
+
 	.center {
 		text-align: center;
 		margin-left: 80px;
@@ -170,8 +177,13 @@ figcaption {
 		margin-left: 150px;
 	}
 
+	.no_margin {
+		margin: 0px;
+	}
+
 	.alling_right {
 		margin-top: 0px;
+		margin-bottom: 0px;
 		text-align: right;
 	}
 
