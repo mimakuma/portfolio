@@ -191,6 +191,10 @@ figcaption {
 		text-align: justify;
 	}
 
+	.drop-shadow {
+		filter: drop-shadow(3px 3px black);
+	}
+
 /*footer*/
 	footer {
 		text-align: center;
